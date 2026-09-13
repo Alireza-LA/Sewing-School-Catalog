@@ -1,0 +1,21 @@
+/* The catalog header remains available while the long presentation is read. */
+.site-header {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+}
+
+.site-header.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(251, 250, 247, 0.94);
+  box-shadow: 0 8px 24px rgba(37, 37, 31, 0.07);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+@media (max-width: 740px) {
+  html { scroll-padding-top: 132px; }
+  .site-header.sticky-top { min-height: 0; }
+}

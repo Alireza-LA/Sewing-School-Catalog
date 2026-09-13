@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="کاتالوگ پروژه سامانه مدیریت آموزشگاه خیاطی؛ آموزش ویدیویی و حضوری، مدیریت دوره، پرداخت، ارزیابی و گواهینامه در یک بستر یکپارچه.">
+  <meta name="theme-color" content="#a94324">
+  <title>سامانه مدیریت آموزشگاه خیاطی | کاتالوگ پروژه</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sticky-header.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+  <header class="site-header sticky-top">
+    <a class="brand" href="#" aria-label="ابتدای کاتالوگ"><span class="brand-mark" aria-hidden="true">خ</span><span>آموزشگاه خیاطی<small>کاتالوگ پروژه</small></span></a>
+    <nav aria-label="فهرست کاتالوگ"><a href="#about">معرفی پروژه</a><a href="#workflow">مسیر آموزش</a><a href="#features">امکانات</a><a href="#technology">فناوری‌ها</a></nav>
+    <a class="header-link" href="https://github.com/Alireza-LA/sewing-school-catalog" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">پروژه دانشگاهی · آموزش مهارت‌های خیاطی</p>
+        <h1 id="hero-title">از اولین درس<br>تا <em>گواهینامه مهارت.</em></h1>
+        <p class="lead">سامانه‌ای برای مدیریت آموزشگاه خیاطی؛ از ساخت و تأیید دوره تا خرید، یادگیری، ارزیابی و صدور گواهینامه. آموزش ویدیویی و کلاس حضوری، در یک وب‌سایت فارسی.</p>
+        <div class="actions"><a class="button primary" href="#workflow">مسیر آموزش را ببینید <span aria-hidden="true">↓</span></a><a class="text-link" href="#about">پروژه چه مسئله‌ای را حل می‌کند؟</a></div>
+        <dl class="hero-facts"><div><dt>۲</dt><dd>شیوه آموزش</dd></div><div><dt>۴</dt><dd>نقش کاربری</dd></div><div><dt>۱</dt><dd>مسیر یکپارچه یادگیری</dd></div></dl>
+      </div>
+      <figure class="hero-figure">
+        <div class="image-chrome"><span>نمای واقعی پروژه</span><span class="chrome-label">کلاس ویدیویی</span></div>
+        <a href="assets/recorded-classroom.png" target="_blank" rel="noopener" aria-label="باز کردن تصویر کامل کلاس ویدیویی"><img src="assets/recorded-classroom.png" width="1440" height="1671" alt="صفحه واقعی کلاس: فهرست جلسه‌ها، پخش‌کننده ویدیو، پیشرفت یادگیری و توضیحات دوره"></a>
+        <figcaption>محیط یادگیری پس از خرید دوره · تصویر با داده‌های آزمایشی</figcaption>
+      </figure>
+    </section>
+    <section id="about" class="section intro-section">
+      <div class="container intro-grid"><div><p class="eyebrow">۰۱ / مسئله و راه‌حل</p><h2>آموزشگاه،<br>منظم‌تر و در دسترس‌تر.</h2></div><div><p class="section-lead">وقتی ثبت‌نام، برنامه کلاس، پرداخت و ارزیابی در ابزارهای جدا انجام می‌شوند، پیگیری مسیر هر هنرجو سخت می‌شود.</p><p>این پروژه اطلاعات دوره‌ها و عملیات آموزشگاه را در یک سیستم کنار هم قرار می‌دهد. هنرجو مسیر یادگیری خود را می‌بیند، مدرس آموزش را آماده می‌کند و مدیریت بر انتشار محتوا و اجرای قوانین نظارت دارد.</p><p class="note">این صفحه کاتالوگ معرفی پروژه است. تصاویر، نمونه‌هایی از وب‌سایت اصلی هستند؛ اطلاعات نمایش‌داده‌شده در آن‌ها آزمایشی است.</p></div></div>
+    </section>
+    <section id="workflow" class="section container" aria-labelledby="workflow-title">
+      <div class="section-heading"><div><p class="eyebrow">۰۲ / مسیر آموزش</p><h2 id="workflow-title">دو شیوه آموزش، یک مسیر روشن.</h2></div><p>در هر دو شیوه، انتشار دوره با تصمیم مدیریت انجام می‌شود. مدرس محتوای آموزشی را آماده می‌کند.</p></div>
+      <div class="workflow-tabs" role="tablist" aria-label="شیوه برگزاری دوره" hidden>
+        <button id="recorded-tab" type="button" role="tab" aria-selected="true" aria-controls="recorded-workflow" tabindex="0">آموزش ویدیویی</button>
+        <button id="inperson-tab" type="button" role="tab" aria-selected="false" aria-controls="inperson-workflow" tabindex="-1">کلاس حضوری</button>
+      </div>
+      <div id="recorded-workflow" class="workflow-panel" aria-labelledby="recorded-title">
+        <div class="workflow-intro"><span class="pill">یادگیری با زمان‌بندی هنرجو</span><h3 id="recorded-title">ویدیوها آماده‌اند؛ مدیریت انتشار را تأیید می‌کند.</h3></div>
+        <ol class="steps"><li><span>۰۱</span><h3>آماده‌سازی دوره</h3><p>مدرس همه جلسه‌های ویدیویی را بارگذاری می‌کند و در صورت نیاز، پروژه پایانی تعریف می‌کند.</p></li><li><span>۰۲</span><h3>بررسی و انتشار</h3><p>مدیر مجاز دوره را بررسی می‌کند. تأیید یعنی انتشار؛ رد دوره همراه با دلیل به مدرس اطلاع داده می‌شود.</p></li><li><span>۰۳</span><h3>خرید و یادگیری</h3><p>هنرجو دوره را می‌خرد، جلسه‌ها را در داشبورد می‌بیند و پیشرفت خود را دنبال می‌کند.</p></li><li><span>۰۴</span><h3>تکمیل و گواهینامه</h3><p>پس از تکمیل جلسه‌ها و، در دوره‌های دارای پروژه، تأیید پروژه توسط مدرس، گواهینامه صادر می‌شود.</p></li></ol>
+        <div class="rule-strip"><strong>قانون این دوره‌ها</strong><p>دسترسی به دوره خریداری‌شده مهلت انقضا ندارد. دوره ویدیویی بازپرداخت ندارد؛ دسترسی حساب محدودشده تا رفع محدودیت مسدود می‌ماند.</p></div>
+      </div>
+      <div id="inperson-workflow" class="workflow-panel" aria-labelledby="inperson-title">
+        <div class="workflow-intro"><span class="pill">آموزش در فضای کارگاه</span><h3 id="inperson-title">کلاس حضوری، با برنامه و ظرفیت مشخص.</h3></div>
+        <ol class="steps"><li><span>۰۱</span><h3>تعریف کلاس</h3><p>مدرس دوره، ظرفیت، زمان برگزاری و کلاس را مشخص می‌کند؛ تداخل برنامه‌ها بررسی می‌شود.</p></li><li><span>۰۲</span><h3>تأیید مدیریت</h3><p>مدیر مجاز جزئیات را بررسی می‌کند و دوره تأییدشده در فهرست عمومی قرار می‌گیرد.</p></li><li><span>۰۳</span><h3>ثبت‌نام و حضور</h3><p>هنرجو با رعایت ظرفیت و شرایط دوره ثبت‌نام می‌کند؛ مدرس حضور و غیاب جلسه‌ها را ثبت می‌کند.</p></li><li><span>۰۴</span><h3>ارزیابی و گواهینامه</h3><p>نمره‌ها، اعتراض به نتیجه و شرایط دریافت گواهینامه در سامانه پیگیری می‌شوند.</p></li></ol>
+        <div class="rule-strip"><strong>قانون این دوره‌ها</strong><p>زمان‌بندی، ظرفیت، پیش‌نیاز و تداخل کلاس اهمیت دارند. امکان و مبلغ بازپرداخت به زمان انصراف و قوانین دوره حضوری وابسته است.</p></div>
+      </div>
+      <p class="workflow-footnote">اگر دوره پیش از انتشار رد شود، مدرس می‌تواند آن را اصلاح و دوباره ارسال کند. ویرایش محتوای دوره منتشرشده برای مدرس قفل می‌شود.</p>
+    </section>
+    <section id="roles" class="section roles-section" aria-labelledby="roles-title">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">۰۳ / کاربران سیستم</p><h2 id="roles-title">هر نقش، مسئولیت مشخص.</h2></div><p>سطح دسترسی در رابط کاربری و در سرور کنترل می‌شود؛ هر کاربر فقط عملیات مجاز خود را انجام می‌دهد.</p></div>
+      <div class="roles-grid"><article><span class="role-number">۰۱</span><h3>هنرجو</h3><p class="role-summary">انتخاب، یادگیری و پیگیری پیشرفت</p><ul><li>جست‌وجوی دوره و ثبت علاقه‌مندی</li><li>خرید، کیف پول و سوابق ثبت‌نام</li><li>مشاهده ویدیو و ارسال پروژه</li><li>دریافت گواهینامه و تیکت پشتیبانی</li></ul></article><article><span class="role-number">۰۲</span><h3>مدرس</h3><p class="role-summary">آماده‌سازی آموزش و ارزیابی</p><ul><li>ساخت دوره و بارگذاری جلسه‌ها</li><li>ارسال دوره برای تأیید مدیریت</li><li>بررسی پروژه و ارسال بازخورد</li><li>حضور و غیاب و نمره کلاس حضوری</li></ul></article><article><span class="role-number">۰۳</span><h3>مدیر اجرایی</h3><p class="role-summary">اداره بخش‌های واگذارشده</p><ul><li>دسترسی متناسب با مسئولیت</li><li>مدیریت کاربران یا مدرسان</li><li>بررسی دوره‌ها یا پاسخ به تیکت‌ها</li><li>گزارش‌ها در صورت داشتن مجوز</li></ul></article><article class="owner-role"><span class="role-number">۰۴</span><h3>مدیر اصلی</h3><p class="role-summary">کنترل کامل و تفویض اختیار</p><ul><li>دسترسی به همه بخش‌های مدیریتی</li><li>افزودن و حذف نقش مدیر اجرایی</li><li>تعیین مجوزهای مدیران اجرایی</li><li>نظارت بر کاربران، دوره‌ها و گزارش‌ها</li></ul></article></div>
+      <p class="roles-note">فقط مدیر اصلی می‌تواند مدیران اجرایی و مجوزهایشان را تغییر دهد. برای مدیران اجرایی، ۱۰ حوزه دسترسی مستقل تعریف شده است.</p></div>
+    </section>
+    <section id="features" class="section container" aria-labelledby="features-title">
+      <div class="section-heading"><div><p class="eyebrow">۰۴ / امکانات کلیدی</p><h2 id="features-title">بیشتر از یک فهرست دوره.</h2></div><p>عملیات آموزشی، مالی و پشتیبانی در کنار هم قرار گرفته‌اند تا سابقه هر مرحله قابل پیگیری باشد.</p></div>
+      <div class="features-grid"><article><span class="feature-index">A / آموزش</span><h3>کلاس ویدیویی در خود سایت</h3><p>فهرست جلسه‌ها، پخش ویدیو، توضیحات جلسه، ثبت پیشرفت و دسترسی دوره در داشبورد هنرجو.</p></article><article><span class="feature-index">B / مالی</span><h3>کیف پول و پرداخت ترکیبی</h3><p>پرداخت با کیف پول، درگاه یا سهم انتخابی از کیف پول به‌همراه درگاه؛ تخفیف و سوابق تراکنش.</p></article><article><span class="feature-index">C / ارزیابی</span><h3>پروژه، بازخورد و گواهینامه</h3><p>پروژه پایانی اختیاری در تعریف دوره؛ تأیید یا درخواست اصلاح توسط مدرس و نمایش، PDF و چاپ گواهینامه.</p></article><article><span class="feature-index">D / پشتیبانی</span><h3>تیکت و اعلان درون‌سایت</h3><p>کاربر واردشده تیکت می‌فرستد. مدیر مجاز پاسخ می‌دهد و کاربر پاسخ را در حساب خود دریافت می‌کند.</p></article><article><span class="feature-index">E / مدیریت</span><h3>نظارت با دسترسی قابل تنظیم</h3><p>فهرست کاربران، مدرسان، دوره‌ها و گواهینامه‌ها، گزارش‌های مالی و فعالیت‌ها با مجوز هر مدیر.</p></article><article><span class="feature-index">F / تجربه کاربری</span><h3>فارسی، روی موبایل و رایانه</h3><p>چیدمان راست‌به‌چپ، حالت روشن و تیره و بازیابی گذرواژه با کد شش‌رقمی ایمیل و راهنمای بررسی اسپم.</p></article></div>
+      <p class="note feature-note">در نسخه فعلی پروژه، درگاه پرداخت شبیه‌سازی شده است. ثبت خرید و گردش کیف پول پیاده‌سازی شده‌اند؛ اتصال بانکی واقعی بخشی از راه‌اندازی عملیاتی آینده است.</p>
+    </section>
+    <section class="section certificate-section" aria-labelledby="certificate-title"><div class="container certificate-grid"><div><p class="eyebrow">۰۵ / نتیجه یادگیری</p><h2 id="certificate-title">گواهینامه،<br>در پایان مسیر آموزش.</h2><p class="section-lead">خرید دوره به‌تنهایی گواهینامه ایجاد نمی‌کند.</p><p>سامانه شرایط آموزشی را بررسی می‌کند. هنرجو پس از احراز شرایط می‌تواند گواهینامه خود را ببیند، فایل PDF بگیرد یا آن را چاپ کند.</p><a class="text-link" href="assets/certificate-preview.png" target="_blank" rel="noopener">مشاهده تصویر کامل نمونه ↗</a><p class="small-note">نمونه آزمایشی با مشخصات، مهر و امضای نمایشی؛ این تصویر مدرک معتبر آموزشی نیست.</p></div><figure class="certificate-figure"><a href="assets/certificate-preview.png" target="_blank" rel="noopener" aria-label="باز کردن نمونه گواهینامه"><img src="assets/certificate-preview.png" width="1200" height="900" loading="lazy" alt="نمای پیش‌نمایش گواهینامه هنرجو در نسخه آزمایشی سامانه"></a><figcaption>نمای واقعی پیش‌نمایش گواهینامه در پروژه</figcaption></figure></div></section>
+    <section id="technology" class="section container" aria-labelledby="technology-title">
+      <div class="section-heading"><div><p class="eyebrow">۰۶ / ساختار فنی</p><h2 id="technology-title">رابط مستقل، منطق متمرکز.</h2></div><p>ظاهر صفحات در فرانت‌اند ساخته می‌شود. قوانین آموزشی، مالی و دسترسی‌ها در بک‌اند اجرا می‌شوند.</p></div>
+      <ol class="architecture" aria-label="مسیر ارتباط اجزای سیستم"><li><span class="arch-kicker">کاربر</span><h3>مرورگر</h3><p>رایانه یا تلفن همراه</p></li><li><span class="arch-kicker">رابط و واسط درخواست‌ها</span><h3 dir="ltr">Next.js + React</h3><p>TypeScript · Tailwind CSS</p></li><li><span class="arch-kicker">قوانین و سرویس‌ها</span><h3 dir="ltr">Django + REST API</h3><p>مجوزها، دوره، خرید و ارزیابی</p></li><li><span class="arch-kicker">ذخیره‌سازی</span><h3 dir="ltr">SQLite + Media</h3><p>رکوردها و فایل‌های آموزشی</p></li></ol>
+      <div class="technical-grid"><div><h3>اجزای سمت کاربر</h3><dl class="tech-list"><div><dt>Next.js و React</dt><dd>صفحات، مسیریابی و اجزای تعاملی</dd></div><div><dt>TanStack Query</dt><dd>دریافت، نگهداری و به‌روزرسانی داده</dd></div><div><dt>React Hook Form و Zod</dt><dd>فرم‌ها و اعتبارسنجی سمت کاربر</dd></div><div><dt>Tailwind CSS و next-themes</dt><dd>چیدمان واکنش‌گرا و تغییر تم</dd></div></dl></div><div><h3>اجزای سمت سرور</h3><dl class="tech-list"><div><dt>Django REST Framework</dt><dd>API و اجرای قواعد کسب‌وکار</dd></div><div><dt>SimpleJWT</dt><dd>احراز هویت؛ کوکی HttpOnly در واسط وب</dd></div><div><dt>WeasyPrint</dt><dd>ساخت گواهینامه PDF با متن فارسی</dd></div><div><dt>SMTP</dt><dd>ارسال ایمیل بازیابی گذرواژه</dd></div></dl></div></div>
+      <div class="security-line"><strong>کنترل در سرور</strong><p>دریافت ویدیو نیازمند مجوز است؛ محدودیت حساب اعمال می‌شود؛ کد بازیابی یک‌بارمصرف و دارای زمان انقضاست؛ رویدادهای مهم در گزارش فعالیت ثبت می‌شوند.</p></div>
+    </section>
+    <section class="section questions-section"><div class="container questions-grid"><div><p class="eyebrow">۰۷ / درباره پروژه</p><h2>چند پاسخ کوتاه.</h2></div><div class="faq"><details><summary>مزیت اصلی این پروژه چیست؟</summary><p>پوشش یک مسیر کامل برای آموزشگاه خیاطی: تولید محتوا، تأیید مدیریت، ثبت‌نام، پرداخت، یادگیری، ارزیابی و گواهینامه. قوانین متفاوت دوره حضوری و ویدیویی و دسترسی مدیران نیز در همین مسیر اعمال می‌شوند.</p></details><details><summary>آیا مدرس می‌تواند خودش دوره را منتشر کند؟</summary><p>خیر. مدرس دوره کامل را برای بررسی می‌فرستد؛ مدیر اصلی یا مدیر اجرایی دارای مجوز دوره‌ها، آن را تأیید و منتشر می‌کند یا با دلیل رد می‌کند.</p></details><details><summary>محدودیت حساب چه اثری دارد؟</summary><p>کاربر همچنان می‌تواند وارد حساب شود و دلیل محدودیت را ببیند یا از پشتیبانی کمک بگیرد، اما خرید، ثبت‌نام و تماشای ویدیوهای خریداری‌شده تا رفع محدودیت غیرفعال می‌شود.</p></details><details><summary>چه چیزهایی برای استفاده واقعی باید آماده شوند؟</summary><p>محتوای آموزشی و مشخصات واقعی آموزشگاه، میزبانی با HTTPS، درگاه پرداخت واقعی، برنامه پشتیبان‌گیری و ارزیابی امنیت و ظرفیت. نسخه فعلی برای نمایش دانشگاهی با داده‌های آزمایشی آماده شده است.</p></details><details><summary>آیا این کاتالوگ همان وب‌سایت اصلی است؟</summary><p>خیر. این کاتالوگ یک وب‌سایت مستقل و عمومی برای معرفی پروژه است و بدون اجرای سرور اصلی باز می‌شود. ورود کاربران، خرید و پخش دوره‌ها در برنامه اصلی انجام می‌شوند.</p></details></div></div></section>
+  </main>
+  <footer class="container footer"><span>سامانه مدیریت آموزشگاه خیاطی</span><a href="https://github.com/Alireza-LA/sewing-school-catalog" target="_blank" rel="noopener noreferrer">مخزن کاتالوگ در GitHub ↗</a><a href="#main">بازگشت به بالا ↑</a></footer>
+</body>
+</html>
